@@ -1,0 +1,24 @@
+{
+  "name": "svg-stacks-research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chaptykov/svg-stacks-research.git"
+  },
+  "author": "",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/Chaptykov/svg-stacks-research/issues"
+  },
+  "homepage": "https://github.com/Chaptykov/svg-stacks-research",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-svg-symbols": "^0.3.1",
+    "gulp-svgmin": "^1.1.1"
+  }
+}
