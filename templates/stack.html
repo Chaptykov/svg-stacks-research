@@ -7,12 +7,14 @@
     <style>
         body {
             background: #333;
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
     {{#each icons}}
+        {{@index}}
         <svg viewBox="0 0 {{w}} {{h}}" width="{{w}}" height="{{h}}">
             <use xlink:href="#{{icon}}"></use>
         </svg>
