@@ -18,7 +18,20 @@
   "homepage": "https://github.com/Chaptykov/svg-stacks-research",
   "dependencies": {
     "gulp": "^3.8.11",
+    "gulp-compile-handlebars": "^0.4.4",
+    "gulp-connect": "^2.2.0",
+    "gulp-data": "^1.2.0",
+    "gulp-imagemin": "^2.2.0",
+    "gulp-newer": "^0.5.0",
+    "gulp-rsvg": "^1.0.0",
+    "gulp-svg-spritesheet": "git://github.com/iamdarrenhall/gulp-svg-sprite",
     "gulp-svg-symbols": "^0.3.1",
-    "gulp-svgmin": "^1.1.1"
+    "gulp-svgmin": "^1.1.1",
+    "gulp-util": "^3.0.3",
+    "gulp.spritesmith": "^2.8.0",
+    "run-sequence": "^1.0.2",
+    "svg-sprite": "^1.0.16",
+    "vinyl": "^0.4.6",
+    "yargs": "^3.0.4"
   }
 }

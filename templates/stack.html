@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+
+    <style>
+        body {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+
+    {{#each icons}}
+        <svg viewBox="0 0 {{w}} {{h}}" width="{{w}}" height="{{h}}">
+            <use xlink:href="#{{icon}}"></use>
+        </svg>
+    {{/each}}
+
+    <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+
+    <script>
+    $.get('{{file}}', function(svg) {
+        var importedSvg = document.importNode(svg.documentElement, true);
+
+        $('body').append(importedSvg);
+    });
+    </script>
+
+</body>
+</html>
